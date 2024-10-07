@@ -1,0 +1,4 @@
+Both matrices must be the same size
+The width of matrix 1 must be equal to the height of matrix 2
+The resulting matrix size is the height of matrix 1 and the width of matrix 2
+the outer loops needs to loop a number of times equal to the height of matrix 1 and the inner loop needs to loop a number of times equal to the width of matrix 2
