@@ -22,7 +22,7 @@ def main():
 
     # Mini Test 3.2 - Two rows, one column
     TEST_matmul_3_2()
-"""
+
     # Mini Test 3.3 - Three rows, one column
     TEST_matmul_3_3()
 
@@ -36,8 +36,8 @@ def main():
     TEST_valid_mat_mul()
 
     #TEST 4 - Invalid matrix multiplication
-    TEST_invalid_mat_mul()
-    """
+    #TEST_invalid_mat_mul()
+
 
 if __name__ == "__main__":
     main()

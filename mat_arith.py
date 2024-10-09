@@ -24,15 +24,18 @@ def mat_sum(m1, m2):
 
 
 def mat_mul(m1, m2):
-    x1 = len(m1[0])
-    y1 = len(m1)
-    x2 = len(m2[0])
-    y2 = len(m2)
+    l1 = len(m1[0])
+    h1 = len(m1)
+    l2 = len(m2[0])
+    h2 = len(m2)
+    print(h1, l1, h2, l2)
     
-    if x1 == y2:
-        new = [[0]*x2 for i in range(y1)]
-
-        
+    if l1 == h2:
+        new = [[0]*l2 for i in range(h1)]
+        for i in range(h1):
+            for j in range(l2):
+                for z in range(l1):
+                    new[i][j] += m1[i][z] * m2[z][j]
 
         solution = new
     else:
